@@ -1,0 +1,26 @@
+object fmLense: TfmLense
+  Left = 405
+  Top = 285
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'fmLense'
+  ClientHeight = 129
+  ClientWidth = 179
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Arial'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Scaled = False
+  ShowHint = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnPaint = FormPaint
+  OnResize = FormResize
+  PixelsPerInch = 120
+  TextHeight = 15
+end
