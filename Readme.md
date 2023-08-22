@@ -2,6 +2,6 @@
 ## Copyritght 2006-2023 LAGODROM Solutions Ltd.
 
 ### Tools and components
-Borland Delpji 7
-Rx Library 2.75
-LAGODROM Componets library
+* Borland Delpji 7
+* Rx Library 2.75
+* LAGODROM Componets library
