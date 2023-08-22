@@ -8,7 +8,7 @@ uses
 
 const
   PID='Lagodrom Screen Lense';
-  VID='Version 1.01.01/g0522';
+  VID='Version 1.01.01/g0617';
   CID='Copyright 2006-2023 LAGODROM Solutions Ltd.';
   QOD='better fewer, but better';
 

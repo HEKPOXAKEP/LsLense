@@ -8,10 +8,9 @@ uses
 
 type
   TfmHelp = class(TForm)
-    Bevel1: TBevel;
-    btnOk: TButton;
-    redHelp: TRxRichEdit;
     fsHelp: TFormStorage;
+    redHelp: TRxRichEdit;
+    btnOk: TButton;
     procedure FormCreate(Sender: TObject);
   private
     procedure LoadHelp;
@@ -22,12 +21,14 @@ type
 implementation
 
 uses
+  //LsFormScale,
   DatMod1;
 
 {$R *.DFM}
 
 procedure TfmHelp.FormCreate(Sender: TObject);
 begin
+  //DoAutoScale(Self);
   fsHelp.IniFileName:=dm1.fIni.FileName;
   LoadHelp;
 end;

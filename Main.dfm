@@ -12,7 +12,6 @@ object fmMain: TfmMain
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
-  Scaled = False
   ShowHint = True
   WindowState = wsMaximized
   OnClose = FormClose
@@ -23,7 +22,7 @@ object fmMain: TfmMain
   OnMouseUp = FormMouseUp
   OnPaint = FormPaint
   OnShow = FormShow
-  PixelsPerInch = 125
+  PixelsPerInch = 96
   TextHeight = 16
   object pumMain: TRxPopupMenu
     ShowCheckMarks = False
